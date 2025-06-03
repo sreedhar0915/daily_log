@@ -407,8 +407,8 @@ class _DailylogScreenState extends State<DailylogScreen> {
                           ),
                           sizedBoxWithWidth(5),
                           Container(
-                            height: 40.h,
-                            width: 47.w,
+                            height: 40,
+                            width: 47,
                             decoration: BoxDecoration(
                               color: AppColors.white,
                               border: Border.all(color: AppColors.grey),
@@ -568,8 +568,8 @@ class _DailylogScreenState extends State<DailylogScreen> {
                           ),
                           sizedBoxWithWidth(5),
                           Container(
-                            height: 40.h,
-                            width: 74.w,
+                            height: 40,
+                            width: 74,
                             decoration: BoxDecoration(
                               color: AppColors.white,
                               border: Border.all(color: AppColors.grey),
