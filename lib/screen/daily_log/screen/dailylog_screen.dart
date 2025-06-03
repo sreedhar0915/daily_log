@@ -386,8 +386,9 @@ class _DailylogScreenState extends State<DailylogScreen> {
                           InkWell(
                             onTap: () {
                               setState(() {
-                                if (provider.cigaretteCount > 0)
+                                if (provider.cigaretteCount > 0) {
                                   provider.cigaretteCount--;
+                                }
                               });
                             },
                             child: Container(
