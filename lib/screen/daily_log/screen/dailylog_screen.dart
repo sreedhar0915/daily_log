@@ -547,8 +547,9 @@ class _DailylogScreenState extends State<DailylogScreen> {
                           InkWell(
                             onTap: () {
                               setState(() {
-                                if (provider.drinkCount > 30)
+                                if (provider.drinkCount > 30) {
                                   provider.drinkCount -= 30;
+                                }
                               });
                             },
                             child: Container(
